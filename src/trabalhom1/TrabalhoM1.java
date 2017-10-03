@@ -22,8 +22,6 @@ public class TrabalhoM1 extends Application {
     }
     @Override
     public void start(Stage primaryStage)  {
-        CVSReader tentar = new CVSReader();
-        //tentar.lerCVS();
         DashboardController dash = new DashboardController();
         GerenciadorJanela.obterInstancia().inicializaPalco(primaryStage, dash);
     }
